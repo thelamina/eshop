@@ -21,6 +21,18 @@ const Home = () => {
           <img src='assets/img2.jpg' alt='' />
         </div>
       </div>
+
+      <div className='Home-Categories container'>
+        <h2>Categories</h2>
+        <div>
+          <Link to='/shop/clothings'>Clothings</Link>
+          <Link>Entertainment</Link>
+          <Link>Shoes</Link>
+          <Link>Watches</Link>
+          <Link>Jewelries</Link>
+          <Link>Beauty</Link>
+        </div>
+      </div>
       <div className='Home-Brands container'>
         <h2>Popular Brands</h2>
         <div>
@@ -44,7 +56,7 @@ const Home = () => {
           </div>
           <div className='Home-Service-Content'>
             <div className='Home-Service-Card'>
-              <img src='assets/logo.png' alt='' />
+              <img src='assets/logo2.png' alt='' />
               <h4>Custom Product</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +66,7 @@ const Home = () => {
               </p>
             </div>
             <div className='Home-Service-Card'>
-              <img src='assets/logo.png' alt='' />
+              <img src='assets/logo2.png' alt='' />
               <h4>All Product Warranty</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,7 +76,7 @@ const Home = () => {
               </p>
             </div>
             <div className='Home-Service-Card'>
-              <img src='assets/logo.png' alt='' />
+              <img src='assets/logo2.png' alt='' />
               <h4>Seamless Service</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

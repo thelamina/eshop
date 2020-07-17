@@ -1,0 +1,23 @@
+.Product {
+  margin: 10px;
+}
+.Product-desc {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Product-Image {
+  background: #dddddd;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Product-Image img {
+  width: 100%;
+  height: auto;
+}
