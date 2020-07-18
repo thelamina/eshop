@@ -47,3 +47,11 @@
 .Navbar-Links a.active {
   border-bottom: 4px solid #cf8b0d;
 }
+
+@media screen and (max-width: 700px) {
+  .Navbar {
+  }
+  .Navbar-Links {
+    display: none;
+  }
+}

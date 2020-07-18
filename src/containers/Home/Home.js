@@ -13,7 +13,7 @@ const Home = () => {
             possimus dignissimos explicabo, error voluptate
           </p>
           <div className='Home-Button-Group'>
-            <Link to='/'>Shop Now</Link>
+            <Link to='/shop'>Shop Now</Link>
             <Link to='/'>Try Products</Link>
           </div>
         </div>

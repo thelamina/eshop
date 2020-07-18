@@ -10,17 +10,12 @@ const Navbar = () => {
       </Link>
       <ul className='Navbar-Links'>
         <li>
-          <NavLink exact to='/'>
-            Home
-          </NavLink>
-        </li>
-        <li>
           <NavLink to='/shop'>Shop</NavLink>
         </li>
-
+        {/* 
         <li>
           <NavLink to='/login'>Login</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to='/profile'>Profile</NavLink>
         </li>
