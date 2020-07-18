@@ -3,6 +3,8 @@ import "./Shop.css";
 import Product from "./Product/Product";
 
 const Shop = () => {
+  console.log(process.env.REACT_APP_FIREBASE_API_KEY);
+
   return (
     <div className='container'>
       <h2>All Products</h2>

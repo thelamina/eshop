@@ -1,0 +1,9 @@
+.Backdrop {
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  background: #00000071;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}

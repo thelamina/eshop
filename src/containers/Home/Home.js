@@ -26,11 +26,11 @@ const Home = () => {
         <h2>Categories</h2>
         <div>
           <Link to='/shop/clothings'>Clothings</Link>
-          <Link>Entertainment</Link>
-          <Link>Shoes</Link>
-          <Link>Watches</Link>
-          <Link>Jewelries</Link>
-          <Link>Beauty</Link>
+          <Link to='/shop/clothings'>Entertainment</Link>
+          <Link to='/shop/clothings'>Shoes</Link>
+          <Link to='/shop/clothings'>Watches</Link>
+          <Link to='/shop/clothings'>Jewelries</Link>
+          <Link to='/shop/clothings'>Beauty</Link>
         </div>
       </div>
       <div className='Home-Brands container'>

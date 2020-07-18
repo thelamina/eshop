@@ -1,19 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Layout from "./containers/Layout/Layout";
 import AuthProvider from "./contexts/auth.context";
 
-function App() {
+const App = () => {
   return (
-    <div className='App'>
+    <AuthProvider>
       <Router>
-        <AuthProvider>
-          <Layout />
-        </AuthProvider>
+        <Layout />
       </Router>
-    </div>
+    </AuthProvider>
   );
-}
+};
 
 export default App;
